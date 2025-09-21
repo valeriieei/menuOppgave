@@ -1,3 +1,15 @@
+import Menu from "./MenuComponent/Menu";
+import imageBolognese from "./assets/bolognese.JPG";
+import imageBronwie from "./assets/brownie.JPG";
+import imageEntrecote from "./assets/entrecote.JPG";
+import imagePancake from "./assets/pancake.JPG";
+import imagePizza from "./assets/pizza.JPG";
+import imageSalad from "./assets/salad.JPG";
+import imageShrimp from "./assets/shrimp.JPG";
+import imageSoup from "./assets/soup.JPG";
+import imageSushi from "./assets/sushi.JPG";
+import imageTaco from "./assets/taco.JPG";
+
 function App() {
   const menu = [
     {
@@ -81,5 +93,8 @@ function App() {
       image: imageEntrecote,
     },
   ];
+
+  return <Menu items={menu} />;
 }
+
 export default App;

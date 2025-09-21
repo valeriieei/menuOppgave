@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Mono&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Revalia&family=Zen+Kaku+Gothic+Antique&display=swap");
+
+.menuGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 60px;
+  list-style: none;
+  justify-content: center;
+
+  margin-top: 40px;
+}
+.menuContainer {
+  margin: 12px;
+  background: rgba(255, 245, 230, 0.9);
+  color: #2e1e1e;
+  border-radius: 12px;
+  border: 3px solid rgba(156, 100, 54, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  height: 18svh;
+  width: 32svw;
+  padding: 12px;
+}
+.itemImage {
+  width: 140px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
